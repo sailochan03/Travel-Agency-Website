@@ -1,0 +1,97 @@
+body {
+    margin: auto;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0); 
+    z-index: 1; 
+}
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.hero {
+    position: relative;
+}
+
+.nav-container {
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agencyName {
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size: 250%;
+}
+
+
+.tag-text {
+    color: white;
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Add this CSS for the service card hover effect */
+.service-card {
+    overflow: hidden;
+    position: relative;
+}
+
+.service-card .image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card:hover .overlay {
+    opacity: 1;
+}
+
+.service-card .card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 200%;
+}
