@@ -66,6 +66,9 @@ body {
     .tag-text{
         font-size: 170%;
     }
+    .agencyName{
+       font-size:150%;
+      }
 }
 
 .services {
